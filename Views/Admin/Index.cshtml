@@ -1,0 +1,30 @@
+﻿@using WebApplication11.Data.Entity
+@model User;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add User</title>
+
+</head>
+<body>
+    <form method="post">
+        <div>
+        <input asp-for = "FirstName"/>
+        <label asp-for = "FirstName">FirstName</label>
+        </div>
+        <
+        <div>
+            <input asp-for  = "LastName"/> 
+             <label asp-for= "LastName" >LastName</label>
+             
+        </div>
+    </form>
+
+</body>
+</html>
